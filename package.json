@@ -1,0 +1,21 @@
+{
+  "name": "three_test",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/d3": "^7.4.3",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.6"
+  },
+  "dependencies": {
+    "@types/three": "^0.162.0",
+    "d3": "^7.9.0",
+    "three": "^0.162.0"
+  }
+}
